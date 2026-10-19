@@ -12,6 +12,7 @@ namespace DemoRepo.Repositories
         bool UpdateProduct(Product product);
         bool DeleteProduct(int productId);
         Product? GetProductById(int productId);
+        int Count();
 
         void ActionOnProduct(ActionEnum action);
     }
